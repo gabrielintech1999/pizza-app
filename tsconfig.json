@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    /* Output structure */
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    /* Compatibility */
+    "target": "ES2020",
+    "module": "es6",
+    "moduleResolution": "node",
+    "lib": ["ES2020", "DOM"],
+
+    /* Code quality */
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Modern features */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Debugging support */
+    "sourceMap": true,
+
+    /* Optimization */
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
