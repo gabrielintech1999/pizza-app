@@ -1,5 +1,3 @@
-import { getPizzaDetail } from "./main.js";
+import { getPizzaDetail } from "./utils.js";
 
 console.log(getPizzaDetail(1));
-
-console.log();
