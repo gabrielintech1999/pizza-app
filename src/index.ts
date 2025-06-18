@@ -1,5 +1,5 @@
-function infoName(name: string) {
-  console.log(name);
-}
+import { getPizzaDetail } from "./main.js";
 
-infoName("Gabriel");
+console.log(getPizzaDetail(1));
+
+console.log();

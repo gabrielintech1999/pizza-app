@@ -5,11 +5,11 @@
     "rootDir": "./src",
 
     /* Compatibility */
-    "target": "ES2020",
+    "target": "ES2015",
     "module": "es6",
     "moduleResolution": "node",
     "lib": ["ES2020", "DOM"],
-
+ 
     /* Code quality */
     "strict": true,
     "noImplicitAny": true,
